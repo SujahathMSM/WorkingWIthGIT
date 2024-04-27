@@ -24,5 +24,7 @@ class Example{
 
         Singleton d = Singleton.getInstance();
         System.out.println(d);
+        Singleton c = Singleton.getInstance();
+        System.out.println(c);
     }
 }
